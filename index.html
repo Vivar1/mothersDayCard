@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-image: linear-gradient(135deg, #ff69b4, #ffcc00);
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        
+        header p {
+            font-size: 18px;
+            margin-top: 20px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        .message {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .message h3 {
+            margin: 0 0 10px;
+            color: #ff69b4;
+        }
+        .message p {
+            margin: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery-item {
+            flex: 1 0 300px;
+            height: 400px; /* Adjust the height as needed */
+            position: relative;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            
+        }
+        .gallery-item img,
+        .gallery-item iframe {
+            width: 100%;
+            height: 100%;
+            object-fit:cover;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery-item img:hover,
+        .gallery-item iframe:hover {
+            transform: scale(1.05);
+        }
+        .description {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            
+            width: 95%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 10px;
+           
+            display: flex;
+            align-items: center;
+            overflow: visible;
+        }
+        .description i {
+            margin-right: 5px;
+            padding-right: 5px;
+            padding-bottom: 10px;
+            color: red; /* Change color as needed */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Happy Mothers Day!</h1>
+    </header>
+    <div class="container">
+        <div class="message">
+            <h3>Happy Mothers Day To The Best Mum In The World</h3>
+            <p>You are the best mum ever and I really appreciate you. Thank you for everything. <br><br> Here is a little digital card for mothers day I hope you like it. </p>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="./assets/motherDays1.JPG" alt="Photo 1">
+                <div class="description">
+                    <i class="fas fa-heart"></i>  I appreciate the time we spend together as a family. 
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/motherDays2.JPG" alt="Photo 2">
+                <div class="description">
+                    <i class="fas fa-heart"></i>  Thank you for having fun and not being to serious with myself and Jaz. 
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/motherDays3.JPG" alt="Photo 3">
+                <div class="description">
+                    <i class="fas fa-heart"></i>  I love the times were we are all together, I believe this is when your the happiest. 
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="./assets/motherDays4.JPG" alt="Photo 4">
+                <div class="description">
+                    <i class="fas fa-heart"></i>  You and dad are great mum. The best mother I've ever had haha. 
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/motherDays5.JPG" alt="Photo 5">
+                <div class="description">
+                    <i class="fas fa-heart"></i>  Thank you for always loving myself and Jaz unconditionally. 
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/motherDays6.JPG" alt="Photo 6">
+                <div class="description">
+                    <i class="fas fa-heart"></i>  Thank you for being the crazy one in the family haha. 
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/motherDays7.JPG" alt="Photo 7">
+                <div class="description">
+                    <i class="fas fa-heart"></i>  This was a hard time and I think it was nans last get away, we still all smiled for her. 
+                </div>
+            </div>
+            
+          
+            <div class="gallery-item">
+                <img src="./assets/MotherDays8.JPG" alt="Photo 2">
+                <div class="description">
+                    <i class="fas fa-heart"></i> An old photo of youself with your crazy kids, we love you lots mum. 
+                </div>
+            </div>
+            
+         
+           
+            <!-- Add more photos or videos here -->
+        </div>
+        <div style="height: 10px;"></div>
+        <div class="message">
+            <h3>From Your Son</h3>
+            <p>I love you very much mum and hope you have the best mothers day ever.</p>
+        </div>
+    </div>
+</body>
+</html>
